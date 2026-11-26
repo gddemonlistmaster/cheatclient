@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mojmod",
+  "version": "${version}",
+  "name": "Moj Mod",
+  "description": "Panel informacyjny otwierany prawym Shiftem.",
+  "authors": ["Twoje Imie"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["com.example.mojmod.MojMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
